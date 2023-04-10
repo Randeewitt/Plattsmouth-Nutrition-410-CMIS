@@ -53,13 +53,13 @@ nav ul {
 
 nav ul li a {
     padding: 5px;
-    color: blue;
+    color: #103e87;
     text-decoration: none;
     display:block;
 }
 
 nav ul li a:hover {
-    background: blue;
+    background: #103e87;
     border-radius: 10px;
     color: white;
 }
@@ -114,7 +114,7 @@ footer {
     width: 910px;
     margin: 0;
     padding: 10px;
-    background-color: blue;
+    background-color: #103e87;
     clear: both;
     color: white;
     font-weight: bold;
@@ -129,6 +129,7 @@ footer {
     border: 2px solid;
     border-radius: 25px;
 }/* navigation for footer */
+
 footer a:link {
     color: white;
     text-decoration: none;
@@ -142,4 +143,51 @@ footer a:visited {
 
 footer a:hover {
     text-decoration: underline;
+}
+/* this selector group styles the table as a whole */
+
+table {
+	padding: 8px;
+	text-align: left;
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 100%
+}
+
+/* this selector group styles the table headers */
+
+th {
+	border-bottom: 1px solid black;
+	height: 50px;
+	background-color: #103e87;
+	color: white;
+	padding: 10px;
+	}
+
+/* this selector group styles the table data cells */
+td {
+	height: 25px;
+	vertical-align: top;
+	padding: 15px;
+	border-bottom: 1px solid #ddd;
+	
+}
+
+tr:nth-child(even) 
+	{background-color: #f2f2f2;
+	}
+
+	/* this selector is a class set to align the heading above the table */	
+
+.move {
+	text-align: center;
+}
+	
+/* this selector is a class set to specific center the image above the table */	
+	
+.imgCen {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 20px;
 }
