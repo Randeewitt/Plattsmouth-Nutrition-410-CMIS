@@ -191,3 +191,25 @@ tr:nth-child(even)
 	display: block;
 	margin-top: 20px;
 }
+
+
+/* Form Layout Styles */
+
+div.formRow {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin: 7px 0px;
+}
+
+div.formRow {
+    -webkit-flex: 1 1 150px;
+    flex: 1 1 150px;
+}
+
+
+
+
+
+
